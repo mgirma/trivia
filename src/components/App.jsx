@@ -12,18 +12,15 @@ function App() {
 
   return (
     <div className="app">
-     <p> Trivia!</p>
+      <p> Trivia!</p>
       <Question text={data[currentQuestion].question.text} />
-      <App = <NextQuestion />
+      <NextQuestion />
     </div>
   );
 }
 
 function NextQuestion() {
-  return(
-    <button/>
-  );
+  return <button>Click Me</button>;
 }
-
 
 export default App;
