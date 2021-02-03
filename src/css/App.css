@@ -3,8 +3,12 @@ body {
   margin: 0;
   padding: 0;
   color: white;
+  font-size: 30px;
 }
 
+p{
+ font-weight: bold;
+}
 .app {
   text-align: center;
 }
