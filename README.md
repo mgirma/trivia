@@ -18,29 +18,30 @@ In this unit, coders will work in groups to build a project using HTML, CSS, Rea
   - [x] HINT: Use the question number variable you just wrote.
 - [x] BONUS: Add styling to your app.
 
->![Day 1.0 goal](https://i.imgur.com/eTZAXGk.png)
+> ![Day 1.0 goal](https://i.imgur.com/eTZAXGk.png)
 
 ### Goal 2: Render a "Next Question" button on the screen.
 
 - [x] In App.jsx, create a NextQuestion component.
 - [x] Write the JSX to display a button for the user to click for the next question. (It will not work yet.)
-- [ ] Render an instance of `<NextQuestion />` inside of `<App />`.
+- [x] Render an instance of `<NextQuestion />` inside of `<App />`.
 
->![Day 1.5 goal](https://i.imgur.com/o4MzPjL.png)
-
+> ![Day 1.5 goal](https://i.imgur.com/o4MzPjL.png)
 
 ## Day 2: Nested components and state
 
 ### Goal 1: Render the answer choices from sample_data.json on the screen.
 
-- [ ] In App.jsx, create an Answer component.
-- [ ] Render an instance of `<Answer />` inside of `<Question />`.
-- [ ] Add props to `<Answer />` with the text "Answer goes here".
-  - [ ] Pass props for the answer choices into `<Question />`.
+- [x] In App.jsx, create an Answer component.
+- [x] Render an instance of `<Answer />` inside of `<Question />`.
+- [x] Add props to `<Answer />` with the text "Answer goes here".
+  - [x] Pass props for the answer choices into `<Question />`.
   - [ ] Use those props to render the Answer components inside `<Question />` to display the answer choices.
-- [ ] Refactor to use map to map over all answer choices.
+        X- [ ] Refactor to use map to map over all answer choices.
+        X- [ ] Refactor to use map to map over all answer choices.
+        X- [ ] Refactor to use map to map over all answer choices.
 
->![Day 2.0 goal](https://i.imgur.com/VpA8eRc.png)
+> ![Day 2.0 goal](https://i.imgur.com/VpA8eRc.png)
 
 ### Goal 2: Render a button on the screen that reveals the correct answer when clicked.
 
@@ -48,9 +49,7 @@ In this unit, coders will work in groups to build a project using HTML, CSS, Rea
 - [ ] Add a button to the App component that updates state to `isAnswered` when clicked.
 - [ ] Set the state of `isAnswered` to display the correct answer choice.
 
->![Day 2.5 goal - unanswered](https://i.imgur.com/JI6GroE.png)
->![Day 2.5 goal - answered](https://i.imgur.com/rufYX84.png)
-
+> ![Day 2.5 goal - unanswered](https://i.imgur.com/JI6GroE.png) >![Day 2.5 goal - answered](https://i.imgur.com/rufYX84.png)
 
 ## Day 3: Event handlers
 
@@ -64,8 +63,7 @@ In this unit, coders will work in groups to build a project using HTML, CSS, Rea
 - [ ] Reset the state of `isAnswered` when the Next Question button is clicked.
 - [ ] BONUS: Add [conditional rendering](https://reactjs.org/docs/conditional-rendering.html) to hide `<NextQuestion />` when there are no more next questions.
 
->![Day 3.0 goal](https://i.imgur.com/fetraPF.png)
->![Day 3.0 with bonus](https://i.imgur.com/GruM8g2.png)
+> ![Day 3.0 goal](https://i.imgur.com/fetraPF.png) >![Day 3.0 with bonus](https://i.imgur.com/GruM8g2.png)
 
 ### Goal 2: Add functionality so that when the user clicks on an answer choice, the correct answer appears.
 
@@ -85,9 +83,7 @@ In this unit, coders will work in groups to build a project using HTML, CSS, Rea
 - [ ] Add an export to each of your components.
 - [ ] Import all of your components into the correct files.
 
->![Day 3.5 correct](https://i.imgur.com/HC7M6LH.png)
->![Day 3.5 wrong](https://i.imgur.com/DWQu3bb.png)
-
+> ![Day 3.5 correct](https://i.imgur.com/HC7M6LH.png) >![Day 3.5 wrong](https://i.imgur.com/DWQu3bb.png)
 
 ## Extensions!
 
