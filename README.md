@@ -43,9 +43,9 @@ In this unit, coders will work in groups to build a project using HTML, CSS, Rea
 
 ### Goal 2: Render a button on the screen that reveals the correct answer when clicked.
 
-- [ ] Add state to `<App />` using the `useState` React hook to keep track of if the question is answered.
-- [ ] Add a button to the App component that updates state to `isAnswered` when clicked.
-- [ ] Set the state of `isAnswered` to display the correct answer choice.
+- [x] Add state to `<App />` using the `useState` React hook to keep track of if the question is answered.
+- [x] Add a button to the App component that updates state to `isAnswered` when clicked.
+- [x] Set the state of `isAnswered` to display the correct answer choice.
 
 > ![Day 2.5 goal - unanswered](https://i.imgur.com/JI6GroE.png) >![Day 2.5 goal - answered](https://i.imgur.com/rufYX84.png)
 
@@ -53,13 +53,13 @@ In this unit, coders will work in groups to build a project using HTML, CSS, Rea
 
 ### Goal 1: Add functionality to your "Next Question" button so that it renders the next question when clicked.
 
-- [ ] Add state to `<App />` using the `useState` React hook to keep track of the current question number.
-  - [ ] Replace the current question number variable that you wrote in Day 1.
-- [ ] Create a function that updates the state to the next question number.
-- [ ] Make a prop on `<NextQuestion />` to pass the prop down to the button element to call that function when the button is clicked.
-- [ ] Check that every part of your question and answer updates to reflect the current question number.
-- [ ] Reset the state of `isAnswered` when the Next Question button is clicked.
-- [ ] BONUS: Add [conditional rendering](https://reactjs.org/docs/conditional-rendering.html) to hide `<NextQuestion />` when there are no more next questions.
+- [x] Add state to `<App />` using the `useState` React hook to keep track of the current question number.
+  - [x] Replace the current question number variable that you wrote in Day 1.
+- [x] Create a function that updates the state to the next question number.
+- [x] Make a prop on `<NextQuestion />` to pass the prop down to the button element to call that function when the button is clicked.
+- [x] Check that every part of your question and answer updates to reflect the current question number.
+- [x] Reset the state of `isAnswered` when the Next Question button is clicked.
+- [x] BONUS: Add [conditional rendering](https://reactjs.org/docs/conditional-rendering.html) to hide `<NextQuestion />` when there are no more next questions.
 
 > ![Day 3.0 goal](https://i.imgur.com/fetraPF.png) >![Day 3.0 with bonus](https://i.imgur.com/GruM8g2.png)
 

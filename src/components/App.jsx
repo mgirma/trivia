@@ -7,34 +7,53 @@ function Question(props) {
     <div className="Question">
       {props.text}
       {props.answer.map((answerchoice) => {
-        return (
-          <Answer text={answerchoice} />
-        );
+        return <Answer text={answerchoice} />;
       })}
     </div>
   );
 }
-function Answer(props){ 
-  return (
-    <h1>{props.text}</h1>
-  )
+function Answer(props) {
+  return <h1>{props.text}</h1>;
 }
 
-// const [get,set] = useState(false);
 function App() {
-  var currentQuestion = 0;
-  //const [myState, setMyState] = useState(false);
+  const [isAnswered, setIsAnswered] = useState(false);
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+
+  const currentCorrectChoice =
+    data[currentQuestion].question.correct_choice_index;
+
+
+  const handleClick = () => {
+    setIsAnswered(true);
+  };
+
+  const handleNextQuestionClick = () => {
+    setCurrentQuestion(currentQuestion + 1)
+    setIsAnswered(false);
+  }
+
   return (
     <div className="app">
       <p> Trivia!</p>
-      <Question text={data[currentQuestion].question.text} answer={data[currentQuestion].question.choices}/>
-      <NextQuestion/>
+      <Question
+        text={data[currentQuestion].question.text}
+        answer={data[currentQuestion].question.choices}
+      />
+      <button onClick={handleClick}>Answer Question</button>
+
+      {/* short circuit */}
+      {isAnswered && <p>The correct answer is: {data[currentQuestion].question.choices[currentCorrectChoice]}</p>}
+      
+      <NextQuestion 
+        handleClick={handleNextQuestionClick}
+      />
     </div>
   );
 }
 
-function NextQuestion() {
-  return <button>Click Me</button>;
+function NextQuestion(props) {
+  return <button onClick={props.handleClick}>Next Question</button>;
 }
 
 export default App;

@@ -1,7 +1,7 @@
 [
   {
     "question": {
-      "choices": ["48", "13", "52", "50", "10", "15"],
+      "choices": ["48", "13", "52", "50"],
       "correct_choice_index": 3,
       "text": "How many states are in the United States?",
       "user_id": "ZbCvDadaM0SD9YjAXrHMEDLVGoj2"
@@ -12,6 +12,14 @@
       "choices": ["PopCode", "ScriptEd", "CodeUSA", "CodeEd"],
       "correct_choice_index": 1,
       "text": "What was the original name of Code Nation when it was founded?",
+      "user_id": "ZbCvDadaM0SD9YjAXrHMEDLVGoj2"
+    }
+  },
+  {
+    "question": {
+      "choices": ["Bill Gates", "Jeff Bezos", "Elon Musk", "Warren Buffett"],
+      "correct_choice_index": 2,
+      "text": "What is the richest man in the world in 2021?",
       "user_id": "ZbCvDadaM0SD9YjAXrHMEDLVGoj2"
     }
   }
